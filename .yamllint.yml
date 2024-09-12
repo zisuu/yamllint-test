@@ -1,0 +1,10 @@
+---
+# https://yamllint.readthedocs.io/en/stable/configuration.html
+
+extends: default
+
+rules:
+  truthy: disable
+  line-length:
+    max: 100
+    allow-non-breakable-inline-mappings: true
