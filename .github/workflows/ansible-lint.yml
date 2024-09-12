@@ -1,0 +1,14 @@
+---
+on:
+    pull_request:
+    merge_group:
+jobs:
+  build:
+    name: Ansible Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Ansible Galaxy Collections
+        run: ansible-galaxy collection install -r requirements.yml
+      - name: Run ansible-lint
+        uses: ansible/ansible-lint@v24.2.2
