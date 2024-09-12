@@ -1,0 +1,25 @@
+---
+collections:
+  - name: community.hashi_vault
+    version: "5.0.0"
+    source: https://galaxy.ansible.com
+
+  - name: community.general
+    version: "9.2.0"
+    source: https://galaxy.ansible.com
+
+  - name: ansible.posix
+    version: "1.5.4"
+    source: https://galaxy.ansible.com
+
+  - name: containers.podman
+    version: "1.10.3"
+    source: https://galaxy.ansible.com
+
+  - name: community.docker
+    version: "3.5.0"
+    source: https://galaxy.ansible.com
+
+  - name: f5networks.f5_modules
+    version: "1.28.0"
+    source: https://galaxy.ansible.com
